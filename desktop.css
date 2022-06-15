@@ -1,0 +1,100 @@
+/* CSS FOR DESKTOP */
+
+/* For desktop */
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+.nav-menu{   
+flex-direction: row;
+justify-content: flex-end;
+}
+.nav-logo{
+    text-align: left;
+}
+.nav-heading{
+    text-align: center;
+    padding: 10px;
+ 
+}
+.nav-menu a{
+    padding: 5px 15px;
+    margin: 0 5px;
+    background-color: transparent;
+}
+/* profile design starts from here */
+/* profile design ends here */
+/* profile design starts from here */
+.profile .top-weather-icon{
+    right: 100px;
+    width:120px;
+    transition: width 2s,transform 2s;
+}
+.profile .top-weather-icon:hover{
+    width: 160px;
+}
+.profile-desc p{
+    color:gray;
+    margin: 0 auto;
+    width:50%;
+   margin-bottom: 20px;
+}
+.profile .bottom-weather-icon{
+    bottom:100px ;
+    left: 100px;
+    width:120px;
+    transition: width 2s,transform 2s;
+}
+.profile .bottom-weather-icon:hover{
+    width: 160px;
+}
+/* profile ends from here */
+/* about design starts  here */
+.aboutme-image {
+    margin-top: 100px;
+}
+.aboutme-image img{
+    width: 250px;
+    height: 270px;
+}
+.aboutme-desc{
+    text-align: left;
+}
+/* about design ends here */
+/* profetional experience design starts from here */
+.profetional-experience{
+
+    padding: 1% 5%;
+}
+/* profetional experience design ends here */
+/* achievementr contact design starts from here */
+.achievement{
+    padding-right: 40px;
+}
+.contact button{
+
+    margin: 10px;
+    width: 120px;
+   
+
+
+}
+/* achievementr contact design ends here */
+/* footer design starts from here  */
+.footer-menu{
+    margin-top: 12px;
+}
+.footer-menu a{
+    display: inline;
+    margin:10px;
+}
+/* footer design ends here  */
+
